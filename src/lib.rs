@@ -35,7 +35,7 @@ mod tests {
         let hlist_pat![]: HList![] = hlist![];
 
         let hlist_pat![a, b, c]: HList![i32, &'static str, bool] = hlist![42, "hello", false];
-        let hlist_pat![d, e, f,]: HList![i32, &'static str, bool,] = hlist![64, "goodbye", true];
+        let hlist_pat![d, e, f,]: HList![i32, &'static str, bool,] = hlist![64, "goodbye", true,];
 
         assert_eq!(a, 42);
         assert_eq!(b, "hello");
