@@ -4,5 +4,5 @@ version = "0.1.0"
 authors = ["kyren <catherine@chucklefish.org>"]
 repository = "https://github.com/chucklefish/hlist-macro"
 description = "Heterogeneous list data-types and macros"
-readme = "README"
+readme = "README.md"
 license = "MIT"
